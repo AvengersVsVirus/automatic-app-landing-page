@@ -1,91 +1,76 @@
 #page title
-page_title                                : Kopaphere                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: Kopaphere # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id: 1234793120 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://devpost.com/software/klopaphere#updates                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link: # Enter Google Play Store URL.
+presskit_download_link:
+  https://devpost.com/software/klopaphere#updates # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/Logo_gross.png                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Klopaphere                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Klopaphere ist eine Plattform, die Nachfrage und Angebot nach Produkten des täglichen Bedarfs transparent macht, sodass Nutzer gezielt einkaufen gehen und Schlangen/überfüllte Läden vermieden werden. 
+app_icon: assets/Logo_gross.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: Klopaphere # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: Klopaphere ist eine Plattform, die Nachfrage und Angebot nach Produkten des täglichen Bedarfs transparent macht, sodass Nutzer gezielt einkaufen gehen und Schlangen/überfüllte Läden vermieden werden.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name                                 : Avengers Team                                
-your_link                                 : http://klopaphere.de/                    
-your_city                                 : Hamburg                                
-email_address                             : 
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : klopaphere
-github_username                           : AvengersVsVirus
-youtube_username                          :
-
+your_name: Avengers Team
+your_link: http://klopaphere.de/
+your_city: Hamburg
+email_address:
+facebook_username:
+instagram_username:
+twitter_username: klopaphere
+github_username: AvengersVsVirus
+youtube_username:
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+features:
+  - title: Ich suche
+    description: Wähle die Artikel aus, die Du benötigst und die App zeigt dir die Verfügbarkeit in den Supermärkten in deiner Nähe an
+    fontawesome_icon_name: tablet-alt
 
-  - title                                 : Ich suche
-    description                           : Wähle die Artikel aus, die Du benötigst und die App zeigt dir die Verfügbarkeit in den Supermärkten in deiner Nähe an
-    fontawesome_icon_name                 : tablet-alt
-    
-  - title                                 : Ich sehe
-    description                           : Sobald du einen Supermarkt betrittst bekommst du einen Benachrichtigung. Beantworte nun in wenigen Sekunden wie die Verfügbarkeit einzelner Produkte im Supermarkt ist.
-    fontawesome_icon_name                 : tablet-alt
+  - title: Ich sehe
+    description: Sobald du einen Supermarkt betrittst bekommst du einen Benachrichtigung. Beantworte nun in wenigen Sekunden wie die Verfügbarkeit einzelner Produkte im Supermarkt ist.
+    fontawesome_icon_name: tablet-alt
 
-  - title                                 : Ich biete
-    description                           : Ladenbesitzer haben hier die Möglichkeit ihre Bestände regelmäßig in der App zu aktualisieren.
-    fontawesome_icon_name                 : tablet-alt
+  - title: Ich biete
+    description: Ladenbesitzer haben hier die Möglichkeit ihre Bestände regelmäßig in der App zu aktualisieren.
+    fontawesome_icon_name: tablet-alt
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color: black # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color: "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color: "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
@@ -102,9 +87,6 @@ exclude:
   - CNAME
 
 collections:
-  pages:
-    output: true
-    permalink: /:path/
 
 # Markdown rendering
 markdown: kramdown
