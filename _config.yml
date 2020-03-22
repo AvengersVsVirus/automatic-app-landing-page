@@ -33,7 +33,7 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 
-  - title                                 : Test 123
+- title                                 : Test 123
     description                           : New Feature Description
     fontawesome_icon_name                 : f2bb
 
