@@ -33,17 +33,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Test
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : address-card
+  - title                                 : Ich suche
+    description                           : Wähle die Artikel aus, die Du benötigst und die App zeigt dir die Verfügbarkeit in den Supermärkten in deiner Nähe an
+    fontawesome_icon_name                 : tablet-alt
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Ich sehe
+    description                           : Sobald du einen Supermarkt betrittst bekommst du einen Benachrichtigung. Beantworte nun in wenigen Sekunden wie die Verfügbarkeit einzelner Produkte im Supermarkt ist.
+    fontawesome_icon_name                 : tablet-alt
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Ich biete
+    description                           : Ladenbesitzer haben hier die Möglichkeit ihre Bestände regelmäßig in der App zu aktualisieren.
+    fontawesome_icon_name                 : tablet-alt
 
 # Theme Settings
 topbar_color                              : "#000000"
