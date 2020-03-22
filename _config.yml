@@ -11,9 +11,9 @@ presskit_download_link:
   # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon: assets/Logo_gross.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name: Klopaphere # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name: KlopapHere # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Klopaphere ist eine Plattform, die Nachfrage und Angebot nach Produkten des täglichen Bedarfs transparent macht, sodass Nutzer gezielt einkaufen gehen und Schlangen/überfüllte Läden vermieden werden.
+app_description: KlopapHere ist eine Plattform, die Nachfrage und Angebot nach Produkten des täglichen Bedarfs transparent macht, sodass Nutzer gezielt einkaufen gehen und Schlangen/überfüllte Läden vermieden werden.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
